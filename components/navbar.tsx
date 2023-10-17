@@ -41,7 +41,7 @@ export default function Navbar({}): any {
           </Button>
         </Link>
       </div>
-      <Link targer="_blank" href="https://github.com/mxnuchim/xconvert.git">
+      <Link href="https://github.com/mxnuchim/xconvert.git">
         <Button
           variant="default"
           className="rounded-full w-fit bg-orange-600 gap-2 items-center hidden md:flex"
