@@ -27,9 +27,11 @@ export default function Navbar({}): any {
         <p className="font-bold text-base md:text-lg">Xconvert</p>
       </Link>
       <div className="gap-1 md:gap-2 lg:gap-4 hidden md:flex">
-        <Button variant="ghost" className="font-semibold text-md">
-          <Link href="/">Home</Link>
-        </Button>
+        <Link href="/">
+          <Button variant="ghost" className="font-semibold text-md">
+            Home
+          </Button>
+        </Link>
         <Link href="/about">
           <Button variant="ghost" className="font-semibold text-md">
             About
